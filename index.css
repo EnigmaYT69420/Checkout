@@ -89,3 +89,14 @@ body {
 span.price {
   float: right;
   color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #39FF14;
+  color: white;
+  text-align: center;
+}
