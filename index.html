@@ -1,0 +1,115 @@
+<div class="header">
+  <div class="logo">
+      <a href="https://codepen.io/ENigma_YT/pen/GRQxJzd"><img id="logo" src="https://i.ibb.co/yBX5CY7/TPS-Logo-final2.png"></a>
+      <!-- Link the logo to the homepage. Add homepage link to href= -->
+  </div>
+  <h1>Checkout</h1>
+  <a href=""><img id="cart" src="https://i.ibb.co/60Y9LM6/Cart.png"></a>
+  <!-- connect cart to cart page -->
+</div>
+
+<div class="sections">
+  <div class="info">
+    <form action="">      <!-- "This is where the data will go to(picture)"-->
+      <h2>Shipping Information</h2>
+      
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="fullname" placeholder="John Doe" required><br>
+      
+      <label for="number">Phone Number</label><br> 
+      <select class="input-block-level" id="countryCode" name="countryCode" required>
+        <option data-countryCode="JP"  value="81">Japan [+81]</option>
+        <input type="text" id="number" name="phonenumber" placeholder="12-3456-7890" required><br>
+      </select>      
+      
+      <label for="country">Country/Region</label><br>
+      <select name="country" id="country" required>
+        <option data-countryCode="JP" value="Japan">Japan</option> 
+      </select><br>
+  
+      <label for="prefecture">Prefecture</label><br>
+      <select name"prefecture" id="prefecture" required>
+        <option value="Aichi">Aichi</option>
+        <option value="Akita">Akita</option>
+        <option value="Chiba">Chiba</option>
+        <option value="Ehime">Ehime</option>
+        <option value="Fukui">Fukui</option>
+        <option value="Fukuoka">Fukuoka</option>
+        <option value="Fukushima">Fukushina</option>
+        <option value="Gifu">Gifu</option>
+        <option value="Gunma">Gunma</option>
+        <option value="Hiroshima">Hiroshima</option>
+        <option value="Hokkaido">Hokkaido</option>
+        <option value="Hyōgo">Aomori</option>
+        <option value="Ibaraki">Ibaraki</option>
+        <option value="Ishikawa">Ishikawa</option>
+        <option value="Iwate">Kagawa</option>
+        <option value="Kagawa">Kagawa</option>
+        <option value="Kagoshima">Kagoshima</option>
+        <option value="Kanagawa">Kanagawa</option>
+        <option value="Kōchi">Kōchi</option>
+        <option value="Kumamoto">Kumamoto</option>
+        <option value="Kyōto">Kyōto</option>
+        <option value="Mie">Mie</option>
+        <option value="Miyagi">Miyagi</option>
+        <option value="Miyazaki">Miyazaki</option>
+        <option value="Nagano">Nagano</option>
+        <option value="Nagasaki">Nagasaki</option>
+        <option value="Nara">Nara</option>
+        <option value="Niigata">Niigata</option>
+        <option value="Ōita">Ōita</option>
+        <option value="Okayama">Okayama</option>
+        <option value="Okinawa">Okinawa</option>
+        <option value="Ōsaka">Ōsaka</option>
+        <option value="Saga">Saga</option>
+        <option value="Saitama">Saitama</option>
+        <option value="Shiga">Shiga</option>
+        <option value="Shimane">Shimane</option>
+        <option value="Shizuoka">Shizuoka</option>
+        <option value="Tochigi">Tochigi</option>
+        <option value="Tokushima">Tokushima</option>
+        <option value="Tōkyō">Tōkyō</option>
+        <option value="Tottori">Tottori</option>
+        <option value="Toyama">Toyama</option>
+        <option value="Wakayama">Wakayama</option>
+        <option value="Yamagata">Yamagata</option>
+        <option value="Yamaguchi">Yamaguchi</option>
+        <option value="Yamanashi">Yamanashi</option>
+      </select><br>
+        
+      <label for="adr1">City, Ward, Town</label><br>
+      <input type="text" id="adr1" name="address1" placeholder="Tsukuba, Ninomiya" required><br>
+      
+      <label for="address2">Chome, Banchi, Go</label><br>
+      <input type="text" id="address2" name="address2" placeholder="3-Chome, 3-48" required><br>
+      
+      <label for="address3">Building/Apartment/Company Name</label><br>
+      <input type="text" id="address3" name="address3" placeholder="Planty Company"><br>
+      
+      <label for="address4">Unit/Room No.</label><br>
+      <input type="text" id="address4" name="address4" placeholder="Room 123"><br><br><hr>
+
+      <h2>Payment Information</h2>
+      <label for="cinfo">Card Number</label><br>
+      <input type="text" id="cnumber" name="cardnumber" placeholder="1234-1234-1234-1234" required><br>   
+      
+      <label for="cinfo">Expiry Date</label><br>
+      <input type="text" id="expdate" name="expirydate" placeholder="11/23" required><br>
+      
+      <label for="cinfo">CVV</label><br>
+      <input type="text" id="CVV" name="CVV" placeholder="565" required><br><br>
+      
+      <input type="submit" value="Place Order" class="btn">
+    
+  </div>
+  <div class="checkout">
+    <h2>Order Summary</h2>
+      <p><a href="#">Item 1</a> <span class="price">¥6,868</span></p>
+      <p><a href="#">Item 2</a> <span class="price">¥285</span></p>
+      <p><a href="#">Item 3</a> <span class="price">¥9,852</span></p>
+      <p><a href="#">Item 4</a> <span class="price">¥984</span></p><br><hr>
+      <p><a>Total</a> <span class="price">¥17,989</span><br>
+      <input type="submit" value="Place Order" class="btn">
+    </form> 
+  </div>
+</div>
