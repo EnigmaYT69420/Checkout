@@ -84,7 +84,9 @@ body {
   padding: 20px;
 }
 
-
+.checkout a {
+  color: #39FF14;
+}
 
 span.price {
   float: right;
